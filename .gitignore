@@ -1,0 +1,47 @@
+# ===== 构建产物 =====
+[Bb]in/
+[Oo]bj/
+*.exe
+*.pdb
+*.cache
+*.tlog
+*.obj
+
+# ===== Visual Studio 用户级文件 =====
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# ===== Rider / ReSharper =====
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# ===== 测试与覆盖率 =====
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+*.trx
+
+# ===== NuGet =====
+packages/
+*.nuget.props
+*.nuget.targets
+
+# ===== 数据库文件与日志 =====
+*.mdf
+*.ldf
+*.ndf
+*.log
+
+# ===== 操作系统文件 =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 课程报告（含个人信息，不纳入仓库）=====
+《C#程序设计》课程报告（图书馆管理系统）.docx
