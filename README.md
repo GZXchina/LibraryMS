@@ -146,3 +146,11 @@ SELECT * FROM dbo.Users;
 ## 安全说明
 
 连接串默认使用 Windows 集成身份验证，不含明文密码。若改用 `sa` 账号，密码会以明文存放在 `App.config`——该做法**仅限本地课设环境**；真实部署应改用最小权限数据库账号，并将凭据移出源码目录。
+
+## 许可证
+
+代码以 [MIT License](LICENSE) 发布，可自由使用、修改、分发，包括商业用途，保留版权声明与许可声明即可。
+
+`docs/` 下的设计文档（需求规格、工作流、评审清单等）采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 许可，转载或引用请注明出处。
+
+> 说明：`src/` 中的源码、`database/` 与 `docs/` 中的 SQL 脚本按 MIT 授权；文档类内容按 CC BY 4.0 授权。`run.bat` 作为构建脚本随源码一并按 MIT 授权。
